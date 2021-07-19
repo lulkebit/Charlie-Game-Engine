@@ -2,8 +2,6 @@
 
 #include "Charlie/Core.h"
 
-#include <string>
-#include <functional>
 
 namespace Charlie {
 

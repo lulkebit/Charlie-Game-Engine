@@ -1,3 +1,4 @@
+#include "clpch.h"
 #include "Application.h"
 
 #include "Charlie/Events/ApplicationEvent.h"
