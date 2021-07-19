@@ -4,6 +4,9 @@
     <Filter Include="Charlie">
       <UniqueIdentifier>{BDAAF122-298A-70BE-32A2-FB949E00D71F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Charlie\Events">
+      <UniqueIdentifier>{01403E39-ED0D-323F-D6A1-A265C20E0EA4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Charlie.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Charlie\EntryPoint.h">
       <Filter>Charlie</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Charlie\Events\ApplicationEvent.h">
+      <Filter>Charlie\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Charlie\Events\Event.h">
+      <Filter>Charlie\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Charlie\Events\KeyEvent.h">
+      <Filter>Charlie\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Charlie\Events\MouseEvent.h">
+      <Filter>Charlie\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Charlie\Log.h">
       <Filter>Charlie</Filter>
